@@ -1,0 +1,15 @@
+2) cd learn_git
+4) git init 
+5) git add .
+6) git commit -m "adding third.txt"
+7) git log 
+8)
+9)git add .
+10)git commit -m "adding fourth.txt"
+11)rm third.txt
+12)git add .
+13)git commit -m "removing third.txt"
+14)git log
+15)git config --global core.pager "cat"
+16)git config --global -list
+17)git config --global

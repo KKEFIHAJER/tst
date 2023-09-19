@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+html,body{
+    padding:0;
+    margin: 0;
+
+}
+body{
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    padding: 20px 0px;
+}
+li{
+list-style:none;
+}
+ul {
+    display: flex;
+}
+.nav_wrapper{
+    /* background-color: blue; */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+
+.nav_wrapper ul li{
+    padding: 10px;
+    font-weight: 700;
+}
+.nav_wrapper ul li:hover{
+    color: #00b39b;
+    cursor: pointer;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lead__logo{
+    padding-top: 70px;
+    height: 40px;
+    width: 40px;
+    
+}
+    h1{
+        font-size: 2.125rem;
+color: #00b39b; 
+text-align: center
+    }
+    .main{font-weight: 400;
+        font-family: Roboto,Arial,sans-serif;
+        color: #747474;
+        padding: 70px 0px;
+        -webkit-font-smoothing: antialiased;
+        display: flex;
+        justify-content: space-around;
+        /* background-color: #00b39b; */
+        width: 70%;
+
+
+    }  
+    .main p{
+     text-align: center;
+    }  
+.second-section-wrapper{
+    display: flex;
+    justify-content: center;
+    min-height: 60vh;
+
+}
+.second-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    width: 70%;
+    color: white;
+}
+.second-section div {
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.second-section div:nth-child(1){
+    background-color: #00b39b;
+   
+}
+.second-section div:nth-child(2){
+    background-color: #3d83df;
+   
+}
+.second-section div:nth-child(3){
+    background-color: #1b2734;
+   
+}
+
+
+
+select{
+    margin-top: auto;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+    
+
+
+

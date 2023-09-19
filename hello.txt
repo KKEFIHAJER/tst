@@ -13,3 +13,4 @@
 15)git config --global core.pager "cat"
 16)git config --global -list
 17)git config --global
+<img class="logo-docplanner" src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" alt="Docplanner Group">

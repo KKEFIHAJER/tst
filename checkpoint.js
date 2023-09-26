@@ -10,9 +10,6 @@ for (let i = 0; i < ch.length;i++) {
     if(ch[i]==="a"||ch[i]==="y"||ch[i]==="o"||ch[i]==="e"||ch[i]==="i") {
         v++;
     }
-    if(["a","e","i","e","y","o"].includes(ch[i].toLowerCase())) {
-        v++;
-    }
 
 }
 console.log( "number of words in the sentence is ",c+1," and number of vowels in the sentence is" ,v)
